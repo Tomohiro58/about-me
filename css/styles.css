@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 30px;
-    color: #37e228;
+    color: #2fdc40;
     line-height: 1.5;
     background-image: url('../img/居酒屋のテーブル席.jpg');
     background-repeat: no-repeat;
@@ -11,6 +11,10 @@ body {
 .item-image{
     width: 300px;
     height: 300px;
+}
+.item-image2{
+    width: 300px;
+    height: 490px;
 }
 .align-center{
     text-align: center;
