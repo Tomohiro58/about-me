@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #1fb150;
+    line-height: 1.5;
+    background-image: url('../img/居酒屋のテーブル席.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+body main{
+    text-align: center;
+    width: 48%;
+    padding: 0.5em 0.5em;
+    margin: 2em auto;
+    font-weight: bold;
+    background: #dde4e7;
+    border:solid 3px rgb(128, 0, 21);
+    border-radius: 10px;
+}
+.align-center{
+    text-align: center;
+}
+.store-list {
+    display: flex;
+}
+.store-item {
+    margin-right: 150px;
+    font-size: 50px;
+}
+.store-item-image{
+    width: 250px; 
+    height: 150px;
+    padding-right: 30px;
+}
+
+.main-nav font-english{
+    margin-bottom: 10px;
+}

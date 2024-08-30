@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(32, 20, 134);
+    text-align: center;
+    line-height: 1.5;
+    background-image: url('../img/okumono_sinbun37-1280x720.png')
+    
+}
+.align-center{
+    text-align: center;
+}
+.store-list {
+    display: flex;
+}
+.store-item {
+    margin-right: 150px;
+    font-size: 50px;
+}
+.store-item-image1{
+    width: 300px; 
+    height: 250px;
+    padding-right: 30px;
+    object-fit: cover;
+}
+.store-item-image2{
+    width: 250px; 
+    height: 225px;
+    padding-right: 30px;
+    object-fit: none;
+}
+.store-item-image3{
+    width: 200px; 
+    height: 200px;
+    padding-right: 30px;
+}
+.shoku-image1{
+    width: 400px;
+    height: 250px;
+    object-fit: fill;
+}
+.shoku-image2{
+    width: 400px;
+    height: 250px;
+    object-fit: inherit;
+}
+.main-nav font-english{
+    margin-bottom: 10px;
+}
+body li{
+    list-style: none;
+}
+body h1{
+    color: chocolate;
+}
+body h2{
+    color: blueviolet;
+}
+body h4{
+    color: rgb(255, 0, 200);
+}

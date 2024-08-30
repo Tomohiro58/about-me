@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #37e228;
+    line-height: 1.5;
+    background-image: url('../img/居酒屋のテーブル席.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.item-image{
+    width: 300px;
+    height: 300px;
+}
+.align-center{
+    text-align: center;
+}
+.store-list {
+    display: flex;
+}
+.store-item-image1{
+    width: 250px; 
+    height: 150px;
+    padding-right: 30px;
+    object-fit: cover;
+}
+.store-item-image2{
+    width: 250px; 
+    height: 150px;
+    padding-right: 30px;
+    object-fit: scale-down;
+}
+.store-item-image3{
+    width: 250px; 
+    height: 150px;
+    padding-right: 30px;
+    object-fit: fill;
+}
+
+.main-nav font-english{
+    margin-bottom: 10px;
+}
+body{
+    text-align: center;
+    list-style: none;
+}
+
+body h2 {
+    color: aqua;
+    text-align: center;
+}
+
+ul{
+    text-align: center;
+    list-style: none;
+}
+.container { width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.column {
+float: left;
+width: 50%;/* 画面幅の50%*/
+box-sizing: border-box;
+@media (max-width: 768px) {
+.column {
+width: 100%;/* 画面幅が768px以
+下の場合、幅を100%にする*/
+}
+}
+}

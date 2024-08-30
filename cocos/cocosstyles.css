@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    color: #f3e13aef;
+    line-height: 1.5;
+    background-image: url('../img/okumono_okoru10-1280x720.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.align-center{
+    text-align: center;
+}
+.store-list {
+    display: flex;
+}
+.store-item {
+    margin-right: 150px;
+    font-size: 50px;
+}
+.store-item-image{
+    width: 250px; 
+    height: 150px;
+    padding-right: 30px;
+}
+
+.main-nav font-english{
+    margin-bottom: 10px;
+}
+.cocos-image{
+    width: 900px; 
+    height: 500px;
+}
+.juice-image{
+    width: 400px; 
+    height: 250px;
+}
+body h2 {
+    color: aqua;
+}
+
+body h3 {
+    color: aqua;
+}
+body main{
+    color: #ce3af3ef;
+}
